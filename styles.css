@@ -1589,8 +1589,8 @@ a {
   }
 }
 
-/* Mobile large (375px to 575px) */
-@media (min-width: 150px) and (max-width: 575px) {
+/* Mobile large (376px to 575px) */
+@media (min-width: 376px) and (max-width: 575px) {
   :root {
     --avatar-size: 230px;
     --project-screen-height: 200px;
@@ -1667,6 +1667,215 @@ a {
   
   .project-screens {
     margin-bottom: -40px;
+    height: 190px;
+  }
+  
+  .project-description {
+    max-width: 75%;
+  }
+  
+  .project-icon {
+    right: 15px;
+    width: 36px;
+    height: 36px;
+  }
+  
+  .project-badge {
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+  
+  /* Contact section mobile styling */
+  .contact-section {
+    padding: 30px 20px;
+    align-items: center;
+    background-color: transparent;
+  }
+  
+  .contact-title {
+    font-weight: 700;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.15);
+  }
+  
+  .contact-content {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  
+  .contact-buttons {
+    width: 100%;
+    max-width: 255px;
+    gap: 0.8rem;
+  }
+  
+  .contact-button {
+    height: 50px;
+    padding: 0 1.2rem;
+    border-radius: 16px;
+    background-color: rgb(18, 18, 18);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2), 
+                0px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .email-button {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .resume-button {
+    font-size: 16px;
+    margin-top: 0;
+  }
+  
+  .contact-button svg {
+    margin-right: 10px;
+    min-width: 20px;
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Completely hide the graphic on mobile */
+  .contact-bottom-graphic {
+    display: none;
+  }
+  
+  .nav-buttons {
+    display: none;
+  }
+  
+  .mobile-menu-button {
+    display: flex;
+  }
+  
+  .footer {
+    flex-direction: column;
+    gap: 30px;
+    padding: 2rem 20px;
+  }
+  
+  .footer-left {
+    align-items: center;
+  }
+  
+  .social-icons {
+    gap: 15px;
+  }
+  
+  .social-icon {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .copyright {
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .scroll-top-button {
+    padding: 0.6rem 1rem;
+    font-size: 14px;
+  }
+  
+  /* Adjust meteor position on mobile */
+  .meteor {
+    transform: scale(0.8) rotate(-45deg);
+  }
+  
+  /* Adjust projects-preview for mobile */
+  .projects-preview {
+    margin-top: -2rem;
+    transform: perspective(1200px) rotateX(-5deg);
+  }
+  
+  .ticker-items {
+    gap: 15px;
+  }
+}
+
+/* Mobile large (150px to 375px) */
+@media (min-width: 150px) and (max-width: 375px) {
+  :root {
+    --avatar-size: 230px;
+    --project-screen-height: 200px;
+    --fs-xl: 36px;
+    --fs-lg: 28px;
+    --fs-md: 22px;
+    --fs-sm: 18px;
+    --fs-xs: 12px;
+  }
+  
+  .navbar {
+    max-width: 100%;
+    padding: 1.5rem;
+  }
+  
+  .hero-section {
+    padding: 90px 20px 300px;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+  
+  .hero-heading {
+    line-height: 1.3em;
+  }
+  
+  .avatar-container {
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .visuals {
+    height: 310px;
+  }
+  
+  .icons-ticker {
+    left: 0;
+    right: 0;
+    width: 100%;
+    transform: none;
+    bottom: 10px;
+  }
+  
+  .hero-text {
+    flex: 1 0 0px;
+    width: 100%;
+    padding: 0 10px;
+  }
+  
+  .status-badge {
+    margin-top: 1rem;
+  }
+  
+  .preview-card {
+    width: 330px;
+    height: 250px;
+  }
+  
+  .project-grid {
+    gap: 60px;
+    grid-template-columns: 1fr;
+    padding: 0 20px 40px;
+  }
+  
+  .project-item {
+    margin-bottom: 20px;
+  }
+  
+  .project-card {
+    height: 140px;
+    padding: 15px 20px;
+    grid-column: 1 / -1;
+  }
+  
+  .project-screens {
+    margin-bottom: -40px;
+    height: 170px;
   }
   
   .project-description {
