@@ -1356,6 +1356,10 @@ a {
     padding: 160px 40px 200px;
   }
   
+  .visuals {
+    height: 320px;
+  }
+
   .project-grid {
     gap: 40px;
   }
@@ -1393,7 +1397,7 @@ a {
   }
   
   .visuals {
-    height: 320px;
+    height: 300px;
   }
   
   .preview-card {
@@ -1619,7 +1623,7 @@ a {
   }
   
   .visuals {
-    height: 330px;
+    height: 310px;
   }
   
   .icons-ticker {
